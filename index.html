@@ -5,7 +5,8 @@
 		<meta charset="UTF-8">
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>		
 		<script type="text/javascript" src="js/logica.js"></script>
-	</head>
+		<script type="text/javascript" src="js/scrollcanvas.js"></script>
+</head>
 	<body>
 		<center><h1>Procesos</h1></center>		
 		<center><div id="tabla">
@@ -18,9 +19,11 @@
 			<button id="parar">Bloquear proceso</button>
 			<br>
 			<br>
-			<center><canvas id="lienzo" width="1400" height="700">
-				No soportado.
-			</canvas></center>
 		</div></center>
+		<div width="700" height="700">
+			<canvas id="lienzo" width="5000" height="700">
+				No soportado.
+			</canvas>
+		</div>		
 	</body>
 </html>
